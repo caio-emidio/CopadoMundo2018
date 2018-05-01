@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time
 
 
-#OK - Ideia é trazer e por em json as partidas da copa.
+#OK - Ideia eh trazer e por em json as partidas da copa.
 #Criar via flask :)
 #mandar via Facebook todos os dias as partidas do dia :)
 #Criar Bolao (possivelmente outro codigo)
