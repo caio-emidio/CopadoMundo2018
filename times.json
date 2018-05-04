@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "nome": "Saudi Arabia",
+    "sigla": "KSA",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/ksa"
+  },
+  {
+    "id": 2,
+    "nome": "Russia",
+    "sigla": "RUS",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/rus"
+  },
+  {
+    "id": 3,
+    "nome": "Uruguay",
+    "sigla": "URU",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/uru"
+  },
+  {
+    "id": 4,
+    "nome": "Egypt",
+    "sigla": "EGY",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/egy"
+  },
+  {
+    "id": 5,
+    "nome": "IR Iran",
+    "sigla": "IRN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/irn"
+  },
+  {
+    "id": 6,
+    "nome": "Portugal",
+    "sigla": "POR",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/por"
+  },
+  {
+    "id": 7,
+    "nome": "Spain",
+    "sigla": "ESP",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/esp"
+  },
+  {
+    "id": 8,
+    "nome": "Morocco",
+    "sigla": "MAR",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/mar"
+  },
+  {
+    "id": 9,
+    "nome": "Peru",
+    "sigla": "PER",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/per"
+  },
+  {
+    "id": 10,
+    "nome": "Denmark",
+    "sigla": "DEN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/den"
+  },
+  {
+    "id": 11,
+    "nome": "France",
+    "sigla": "FRA",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/fra"
+  },
+  {
+    "id": 12,
+    "nome": "Australia",
+    "sigla": "AUS",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/aus"
+  },
+  {
+    "id": 13,
+    "nome": "Argentina",
+    "sigla": "ARG",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/arg"
+  },
+  {
+    "id": 14,
+    "nome": "Nigeria",
+    "sigla": "NGA",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/nga"
+  },
+  {
+    "id": 15,
+    "nome": "Iceland",
+    "sigla": "ISL",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/isl"
+  },
+  {
+    "id": 16,
+    "nome": "Croatia",
+    "sigla": "CRO",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/cro"
+  },
+  {
+    "id": 17,
+    "nome": "Serbia",
+    "sigla": "SRB",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/srb"
+  },
+  {
+    "id": 18,
+    "nome": "Costa Rica",
+    "sigla": "CRC",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/crc"
+  },
+  {
+    "id": 19,
+    "nome": "Brazil",
+    "sigla": "BRA",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/bra"
+  },
+  {
+    "id": 20,
+    "nome": "Switzerland",
+    "sigla": "SUI",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/sui"
+  },
+  {
+    "id": 21,
+    "nome": "Mexico",
+    "sigla": "MEX",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/mex"
+  },
+  {
+    "id": 22,
+    "nome": "Germany",
+    "sigla": "GER",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/ger"
+  },
+  {
+    "id": 23,
+    "nome": "Korea Republic",
+    "sigla": "KOR",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/kor"
+  },
+  {
+    "id": 24,
+    "nome": "Sweden",
+    "sigla": "SWE",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/swe"
+  },
+  {
+    "id": 25,
+    "nome": "Panama",
+    "sigla": "PAN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/pan"
+  },
+  {
+    "id": 26,
+    "nome": "Tunisia",
+    "sigla": "TUN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/tun"
+  },
+  {
+    "id": 27,
+    "nome": "England",
+    "sigla": "ENG",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/eng"
+  },
+  {
+    "id": 28,
+    "nome": "Belgium",
+    "sigla": "BEL",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/bel"
+  },
+  {
+    "id": 29,
+    "nome": "Japan",
+    "sigla": "JPN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/jpn"
+  },
+  {
+    "id": 30,
+    "nome": "Poland",
+    "sigla": "POL",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/pol"
+  },
+  {
+    "id": 31,
+    "nome": "Senegal",
+    "sigla": "SEN",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/sen"
+  },
+  {
+    "id": 32,
+    "nome": "Colombia",
+    "sigla": "COL",
+    "img": "https://fsprdcdnpublic.azureedge.net/global-pictures/flags-fwc2018-4/col"
+  }
+]
