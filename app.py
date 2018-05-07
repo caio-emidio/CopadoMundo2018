@@ -9,14 +9,6 @@ from flask import render_template, redirect
 app = Flask(__name__)
 
 
-
-#OK - Ideia eh trazer e por em json as partidas da copa.
-#Criar via flask :)
-#mandar via Facebook todos os dias as partidas do dia :)
-#Criar Bolao (possivelmente outro codigo)
-
-#diahoje = time.strftime("%Y-%m-%d %H:%M:%S")
-
 #Funcao para tratar mes :)
 def tratames(mes):
     if mes == "Jun":
@@ -27,7 +19,7 @@ def tratames(mes):
 def criaJson():
     link = "http://www.fifa.com/worldcup/matches/"
 
-    url =  get(link)
+    url =  get(link,proxies = proxyDict)
 
     bsObj = BeautifulSoup(url.text, "html.parser")
     blocoGeral = bsObj.find("div", {"class":"fi-matchlist"})
@@ -59,40 +51,38 @@ def criaJson():
         timeVisitante = dadosVisitante.find("span",{"class":"fi-t__nText "})
         timeVisitanteSigla = dadosVisitante.find("span",{"class":"fi-t__nTri"})
         nome = "{} X {}".format(timeCasaSigla.text, timeVisitanteSigla.text)
+        TimeCasaId = ""
+        TimeVisitanteId = ""
+        for time in timesJson:
+            if time['sigla'] == timeCasaSigla.text:
+                TimeCasaId = time["id"]
+            elif  time['sigla'] == timeVisitanteSigla.text :
+                TimeVisitanteId = time["id"]
+
         partidaJson = {
-            "nome": nome,
-            "data" : {
-                    "dia": dia,
-                    "mes": mes,
-                    "ano": ano
-                    },
-            "horario": {
-                    "horarioCompleto" : horarioCompleto,
-                    "hora": hora,
-                    "minuto": minuto
-                    },
-            "horarioLocal" : {
-                    "horarioCompleto" : horarioLocalCompleto,
-                    "hora": horaLocal,
-                    "minuto": minuto
-            },
-            "grupo" : grupo.text,
-            "estadio" : estadio.text,
-            "cidade" : cidade.text.lower().capitalize(),
-            "Time1" : {
-                    "timeCasa" : timeCasa.text.upper(),
-                    "timeCasaSigla" : timeCasaSigla.text.upper()
-                    },
-            "Time2" : {
-                    "timeVisitante" : timeVisitante.text.upper(),
-                    "timeVisitanteSigla" : timeVisitanteSigla.text.upper()
+                        "data" : {
+                                "dia": dia,
+                                "mes": mes,
+                                "ano": ano
+                                },
+                        "horario": {
+                                "horarioCompleto" : horarioCompleto,
+                                "hora": hora,
+                                "minuto": minuto
+                                },
+                        "horarioLocal" : {
+                                "horarioCompleto" : horarioLocalCompleto,
+                                "hora": horaLocal,
+                                "minuto": minuto
+                        },
+                        "grupo" : grupo.text,
+                        "estadio" : estadio.text,
+                        "cidade" : cidade.text.lower().capitalize(),
+                        "TimeCasa" : TimeCasaId,
+                        "TimeVisitante" : TimeVisitanteId,
                     }
-                }
         listaPartida.append(partidaJson)
-    listaResp = []
-    for i in listaPartida:
-        listaResp.append(i)
-    return listaResp
+    return listaPartida
 
 
 @app.route("/")
