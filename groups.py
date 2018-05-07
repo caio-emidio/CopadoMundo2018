@@ -1,6 +1,6 @@
 def GeraGrupo():
     link = "http://www.fifa.com/worldcup/groups/"
-    url =  get(link,proxies = proxyDict)
+    url =  get(link)
     bsObj = BeautifulSoup(url.text, "html.parser")
     blkTable = bsObj.findAll("table", {"class":"fi-table fi-standings"})
     listaResposta = []
